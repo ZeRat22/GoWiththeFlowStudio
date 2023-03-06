@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{54A89F46-9D6A-FC0D-8B05-537C4BCE249F}</ProjectGuid>
+    <ProjectGuid>{7CDA9EA8-7005-F203-D3F8-AE9FA1F87296}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -59,6 +59,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Game\Player\Bullet.cs" />
+    <Compile Include="Assets\Scripts\Game\Enemy\EnemyCollision.cs" />
+    <Compile Include="Assets\SmoothCameraFollow.cs" />
     <Compile Include="Assets\Scripts\Game\Enemy\EnemyMovement.cs" />
     <Compile Include="Assets\Scripts\Game\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Game\Enemy\PlayerAwarenessController.cs" />
