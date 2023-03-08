@@ -41,3 +41,24 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 1049641147
+    locked: 0
+  - name: Power Ups
+    uniqueID: 3161970913
+    locked: 0
+  - name: Pizza
+    uniqueID: 1926369187
+    locked: 0
+  - name: Player
+    uniqueID: 2446563583
+    locked: 0
+  - name: Red Zombie
+    uniqueID: 1540178195
+    locked: 0
+  - name: Blue Zombie
+    uniqueID: 1895281449
+    locked: 0
+  - name: Green Zombie
+    uniqueID: 4033721279
+    locked: 0

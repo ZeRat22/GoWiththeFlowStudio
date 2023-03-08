@@ -15,6 +15,7 @@ public class EnemyMovement : MonoBehaviour
     private Vector2 _targetDirection;
     private float _changeDirectionCooldown;
 
+
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
