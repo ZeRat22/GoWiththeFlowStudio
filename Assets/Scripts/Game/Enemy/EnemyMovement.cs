@@ -56,6 +56,12 @@ public class EnemyMovement : MonoBehaviour
         {
             _targetDirection = _playerAwarenessController.DirectionToPlayer;
         }
+        else
+        {
+            _targetDirection = _playerAwarenessController.DirectionToOven;
+           // Debug.Log("ITS" + _targetDirection);
+        }
+
     }
 
     private void RotateTowardsTarget()
