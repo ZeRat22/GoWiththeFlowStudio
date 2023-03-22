@@ -6,7 +6,6 @@ public class SceneChange : MonoBehaviour
 {
     void OnMouseDown()
     {
-        Debug.Log("YES");
         SceneManager.LoadScene("Game");
     }
 }

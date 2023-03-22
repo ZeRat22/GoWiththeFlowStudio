@@ -17,6 +17,8 @@ public class PlayerShoot : MonoBehaviour
     [SerializeField]
     private float _timeBetweenShots;
 
+
+
     private bool _fireContinuously;
     private bool _fireSingle;
     private float _lastFireTime;

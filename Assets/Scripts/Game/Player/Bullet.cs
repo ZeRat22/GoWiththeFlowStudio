@@ -9,6 +9,7 @@ public class Bullet : MonoBehaviour
     {
         if (collision.GetComponent<EnemyMovement>())
         {
+            PlayerScore._currentScore++;
             Destroy(collision.gameObject);
             Destroy(gameObject);
         }
