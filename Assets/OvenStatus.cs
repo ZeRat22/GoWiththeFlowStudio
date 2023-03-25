@@ -7,6 +7,9 @@ public class OvenStatus : MonoBehaviour
 {
     private float ovenHealth = 20;
     private int ovenAttackers = 0;
+
+   
+
     // Start is called before the first frame update
     void Start()
     {
