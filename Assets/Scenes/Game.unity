@@ -1318,6 +1318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf028783007159441b470adbe8e38987, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ovenHealthMeter: {fileID: 1783735591}
 --- !u!1 &744634133
 GameObject:
   m_ObjectHideFlags: 0
@@ -1732,6 +1733,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf028783007159441b470adbe8e38987, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ovenHealthMeter: {fileID: 1783735591}
 --- !u!1 &987341330 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6042869080940198288, guid: 562b40fe58b25b043ade6026fcda2a32, type: 3}

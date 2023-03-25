@@ -1,0 +1,253 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.7f1 (8331acaee5d3) revision 8597932'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 31992 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/newjb/OneDrive/Documents/GitHub/GoWiththeFlowStudio
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50185
+Successfully changed project path to: C:/Users/newjb/OneDrive/Documents/GitHub/GoWiththeFlowStudio
+C:/Users/newjb/OneDrive/Documents/GitHub/GoWiththeFlowStudio
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [29900] Host "[IP] 172.25.240.1 [Port] 0 [Flags] 2 [Guid] 959416931 [EditorId] 959416931 [Version] 1048832 [Id] WindowsEditor(7,newnewbillwoo2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [29900] Host "[IP] 172.25.240.1 [Port] 0 [Flags] 2 [Guid] 959416931 [EditorId] 959416931 [Version] 1048832 [Id] WindowsEditor(7,newnewbillwoo2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 17.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.7f1 (8331acaee5d3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/newjb/OneDrive/Documents/GitHub/GoWiththeFlowStudio/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 Laptop GPU (ID=0x249c)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   31.0.15.3141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008869 seconds.
+- Loaded All Assemblies, in  0.598 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.443 seconds
+Domain Reload Profiling:
+	ReloadAssembly (335ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (252ms)
+				TypeCache.Initialize (251ms)
+					TypeCache.ScanAssembly (248ms)
+				ResolveRequiredComponents (1ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (351ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (12ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\newjb\OneDrive\Documents\GitHub\GoWiththeFlowStudio\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\newjb\OneDrive\Documents\GitHub\GoWiththeFlowStudio\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.260 seconds
+Refreshing native plugins compatible for Editor in 9.17 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.028 seconds
+Domain Reload Profiling:
+	ReloadAssembly (385ms)
+		BeginReloadAssembly (239ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		LoadAllAssembliesAndSetupDomain (1863ms)
+			LoadAssemblies (686ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1265ms)
+				TypeCache.Initialize (528ms)
+					TypeCache.ScanAssembly (517ms)
+				ResolveRequiredComponents (13ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (731ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (463ms)
+				ProcessInitializeOnLoadMethodAttributes (117ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 11.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5958 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (362.9 KB). Loaded Objects now: 6418.
+Memory consumption went from 0.90 GB to 0.90 GB.
+Total: 18.024100 ms (FindLiveObjects: 1.235800 ms CreateObjectMapping: 0.995600 ms MarkObjects: 15.434600 ms  DeleteObjects: 0.355400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 113724.140502 seconds.
+  path: Assets/Free Pack/Railgun - Shot 6.wav
+  artifactKey: Guid(f9eb44b85c96be5429737d4dcadbfa3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pack/Railgun - Shot 6.wav using Guid(f9eb44b85c96be5429737d4dcadbfa3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de2677be67a10d15a87c6f48838d145') in 0.171144 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Free Pack/Machine Gun 1.wav
+  artifactKey: Guid(d40330822ccea6140b664c0560d5022f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pack/Machine Gun 1.wav using Guid(d40330822ccea6140b664c0560d5022f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec171ed9a654d7ccaa56170f359cf2e') in 0.023270 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003371 seconds.
+  path: Assets/Free Pack/Hand Gun 1.wav
+  artifactKey: Guid(6739c01659ad96d47987f4ddee226b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pack/Hand Gun 1.wav using Guid(6739c01659ad96d47987f4ddee226b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4a6deb966eb73121cc832959f9bbee') in 0.020706 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/Free Pack/Hand Gun 2.wav
+  artifactKey: Guid(34b439bf70b80a6409eadecc6be92d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pack/Hand Gun 2.wav using Guid(34b439bf70b80a6409eadecc6be92d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f70222b456d2841cdd207d529e4393') in 0.012637 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UI SFX Free Pack/Assets/Audio/High_Pitched/highpitched_80.wav
+  artifactKey: Guid(2d72bf8d92b81004dacf52212fc2fd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI SFX Free Pack/Assets/Audio/High_Pitched/highpitched_80.wav using Guid(2d72bf8d92b81004dacf52212fc2fd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd6c19997d1ab08c12933a10b61d87d') in 0.015758 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Free Pack/Tsunami hitting a Large City.wav
+  artifactKey: Guid(40ab3a7e4e36423488e589303d63346f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pack/Tsunami hitting a Large City.wav using Guid(40ab3a7e4e36423488e589303d63346f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb8d7a1c2a623d488dad59d7cafbba0') in 0.013868 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001505 seconds.
+  path: Assets/Free Pack/Spaceship passing by.wav
+  artifactKey: Guid(7784e7ab59ab376458c07be56b1a8d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pack/Spaceship passing by.wav using Guid(7784e7ab59ab376458c07be56b1a8d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f253d57a781f595fc0927262f512aa3') in 0.016104 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/UI SFX Free Pack/Assets/Audio/High_Pitched/highpitched_180.wav
+  artifactKey: Guid(ab17b511be95f3c4399d02f711e564ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI SFX Free Pack/Assets/Audio/High_Pitched/highpitched_180.wav using Guid(ab17b511be95f3c4399d02f711e564ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e8afbc7b361cad4e50b35bfdb43d6a') in 0.010189 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Free Pack/Magic Spell_Simple Swoosh_6.wav
+  artifactKey: Guid(cc6699269b4c1d44ea1e860518b9bb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pack/Magic Spell_Simple Swoosh_6.wav using Guid(cc6699269b4c1d44ea1e860518b9bb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502005dd0456a984247c8ae459c744be') in 0.009733 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/UI SFX Free Pack/Assets/Audio/High_Pitched/highpitched_680.wav
+  artifactKey: Guid(9f166224d57887a4a9e2e5ee957f7bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI SFX Free Pack/Assets/Audio/High_Pitched/highpitched_680.wav using Guid(9f166224d57887a4a9e2e5ee957f7bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca5267c4557e0044aac7eb4d399c73f') in 0.011686 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

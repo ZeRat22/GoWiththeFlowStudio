@@ -2,13 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
 
 public class OvenStatus : MonoBehaviour
 {
     private float ovenHealth = 20;
     private int ovenAttackers = 0;
 
-   
+   public Text ovenHealthMeter;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +21,8 @@ public class OvenStatus : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        ovenHealthMeter.text = "oven health : " + ovenHealth.ToString();   
+
         if (ovenAttackers > 0)
         {
             ovenHealth -= Time.deltaTime;
