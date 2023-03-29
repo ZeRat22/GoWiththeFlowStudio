@@ -38,7 +38,7 @@ public class PlayerAwarenessController : MonoBehaviour
         else
         {
             AwareOfPlayer = false;
-           // Debug.Log("Not Aware of player " + _oven.position);
+           Debug.Log("Not Aware of player " + _oven.position);
         }
     }
 }

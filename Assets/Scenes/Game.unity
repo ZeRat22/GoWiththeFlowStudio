@@ -580,7 +580,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 15
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1270,7 +1270,6 @@ GameObject:
   m_Component:
   - component: {fileID: 737216484}
   - component: {fileID: 737216483}
-  - component: {fileID: 737216485}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1306,19 +1305,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &737216485
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 737216482}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf028783007159441b470adbe8e38987, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ovenHealthMeter: {fileID: 1783735591}
 --- !u!1 &744634133
 GameObject:
   m_ObjectHideFlags: 0
@@ -1641,7 +1627,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 921741353}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.46, y: 4.39, z: 0}
+  m_LocalPosition: {x: 0, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3840,6 +3826,10 @@ PrefabInstance:
     - target: {fileID: 4915158010145720599, guid: 562b40fe58b25b043ade6026fcda2a32, type: 3}
       propertyPath: m_SortingLayerID
       value: 1895281449
+      objectReference: {fileID: 0}
+    - target: {fileID: 4983855038134720396, guid: 562b40fe58b25b043ade6026fcda2a32, type: 3}
+      propertyPath: _playerAwarenessDistance
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6042869080940198288, guid: 562b40fe58b25b043ade6026fcda2a32, type: 3}
       propertyPath: m_Name
