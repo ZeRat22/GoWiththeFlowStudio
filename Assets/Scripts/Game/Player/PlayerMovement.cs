@@ -15,6 +15,10 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 _movementInput;
     private Vector2 _smoothedMovementInput;
     private Vector2 _movementInputSmoothVelocity;
+    public float movementInput;
+    public float acceleration;
+    public float normalAcceleration;
+
 
     private void Awake()
     {

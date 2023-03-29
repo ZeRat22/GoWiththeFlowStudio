@@ -59,7 +59,7 @@ public class EnemyMovement : MonoBehaviour
         else
         {
             _targetDirection = _playerAwarenessController.DirectionToOven;
-           // Debug.Log("ITS" + _targetDirection);
+             Debug.Log("ITS" + _targetDirection);
         }
 
     }
@@ -78,3 +78,4 @@ public class EnemyMovement : MonoBehaviour
         _rigidbody.velocity = transform.up * _speed;
     }
 }
+
