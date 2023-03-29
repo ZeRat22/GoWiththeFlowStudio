@@ -27,7 +27,9 @@ public class Health : MonoBehaviour
 
         if(currentHealth <= 0) {
 
-            Destroy(gameObject);
+            //Destroy(gameObject);
+            SceneManager.LoadScene("TitleScene");
+
         }
     }
 
