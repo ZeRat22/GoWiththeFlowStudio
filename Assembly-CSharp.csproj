@@ -61,11 +61,11 @@
     <Compile Include="Assets\Scripts\Game\Player\PlayerStats.cs" />
     <Compile Include="Assets\Scripts\Game\Player\PlayerScore.cs" />
     <Compile Include="Assets\Scripts\Game\SceneChange.cs" />
-    <Compile Include="Assets\Scripts\Game\Player\PlayerCollision.cs" />
     <Compile Include="Assets\Scripts\Game\Enemy\EnemyCounter.cs" />
     <Compile Include="Assets\Scripts\Game\GameManager.cs" />
     <Compile Include="Assets\Scripts\Game\Player\Bullet.cs" />
     <Compile Include="Assets\Scripts\Game\Enemy\EnemyCollision.cs" />
+    <Compile Include="Assets\Scripts\Game\WaveSpawner.cs" />
     <Compile Include="Assets\Scripts\Game\Enemy\EnemyDamage.cs" />
     <Compile Include="Assets\AbilityHolder.cs" />
     <Compile Include="Assets\SmoothCameraFollow.cs" />
@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\Game\Player\Health.cs" />
     <Compile Include="Assets\Scripts\Game\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Game\Enemy\PlayerAwarenessController.cs" />
+    <Compile Include="Assets\Scripts\Game\Wave.cs" />
     <Compile Include="Assets\Scripts\Game\Player\HealthBar.cs" />
     <Compile Include="Assets\Scripts\Game\Ability.cs" />
     <Compile Include="Assets\Sound.cs" />
