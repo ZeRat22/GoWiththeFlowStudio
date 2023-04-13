@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class OvenStatus : MonoBehaviour
 {
-    private float ovenHealth = 20;
+    private float ovenHealth = 50;
     private int ovenAttackers = 0;
 
    public Text ovenHealthMeter;
